@@ -16,16 +16,17 @@ namespace Flex
             AppMain appMain = new AppMain();
             appMain.init();
 
-            
+            CORE.App.coolio coolio = new CORE.App.coolio();
 
-     
-        
-            Console.WriteLine("FLEX " + Version.version + " Revision " + Version.revision + " (" + Version.versionDate + ")");
-            Console.WriteLine("2020 Alacriware Software, created by windingtheropes");
-            Console.WriteLine("");
-            Console.WriteLine("https://github.com/alacriware/flex");
-            Console.WriteLine("Type 'help' for help");
-            Console.WriteLine("");
+
+
+
+            coolio.print("FLEX " + Version.version + " Revision " + Version.revision + " (" + Version.versionDate + ")", 0);
+            coolio.print("2020 windingtheropes", 0);
+            coolio.print("", 0);
+            coolio.print("https://github.com/alacriware/flex", 0);
+            coolio.print("Type 'help' for help", 0);
+            coolio.print("", 0);
             cmdMain.start();
             
             

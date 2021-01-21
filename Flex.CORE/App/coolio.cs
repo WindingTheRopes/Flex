@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace coolio
+namespace Flex.CORE.App
 {
-    class coolio
+    public class coolio
     {
      
         public void print(string message, int type)
