@@ -24,7 +24,7 @@ namespace Flex
             coolio.print("FLEX " + Version.version + " Revision " + Version.revision + " (" + Version.versionDate + ")", 0);
             coolio.print("2020 windingtheropes", 0);
             coolio.print("", 0);
-            coolio.print("https://github.com/alacriware/flex", 0);
+            coolio.print("https://github.com/windingtheropes/flex", 0);
             coolio.print("Type 'help' for help", 0);
             coolio.print("", 0);
             cmdMain.start();

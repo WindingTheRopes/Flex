@@ -7,7 +7,7 @@ namespace FlexHelp
         static void Main(string[] args)
         {
             Version Version = new Version();
-            Console.WriteLine("FLEXHELP " + Version.version + " Revision " + Version.revision + " (" + Version.versionDate + ")");
+            Console.WriteLine($"FLEX HELP {Version.version} Revision {Version.revision} ({Version.versionDate})" );
             
         }
     }

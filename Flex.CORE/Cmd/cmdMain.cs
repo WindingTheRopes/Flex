@@ -17,19 +17,17 @@ namespace Flex.CORE.Cmd
        
         public void start()
         {
-            string input = null;
+            string input;
 
             do
             {
                 Console.Write("FLEX> ");
                 input = Console.ReadLine();
                 cmdHandler cmdHandler = new cmdHandler();
-                cmdHandler.Execute(input);
+                cmdHandler.readCmd(input);
 
-            } while (input !="exit");
-            
-            
-            System.Threading.Thread.Sleep(500);
+            }
+            while (true);
             
 
         }

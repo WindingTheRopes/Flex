@@ -10,7 +10,7 @@ namespace Flex.CORE.App
         public void init()
         {
             cmdHandler cmdHandler = new cmdHandler();
-            cmdHandler.initDictionaries();
+          
             Vars vars = new Vars();
             vars.init();
         }
